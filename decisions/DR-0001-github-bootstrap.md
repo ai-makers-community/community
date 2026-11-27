@@ -28,4 +28,4 @@ AMC의 기록·의사결정·업무 추적과 공개 안내를 분리할 초기 
 
 - Discussion: https://github.com/ai-makers-community/community/discussions/1
 - 구축 Issue: https://github.com/ai-makers-community/community/issues/2
-- Pull Request: 재생성 PR 생성 후 연결
+- Pull Request: https://github.com/ai-makers-community/community/pull/4
