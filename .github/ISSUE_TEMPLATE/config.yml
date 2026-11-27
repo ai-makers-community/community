@@ -1,0 +1,10 @@
+{
+  "blank_issues_enabled": false,
+  "contact_links": [
+    {
+      "name": "공개 정책 의견 수렴",
+      "url": "https://github.com/ai-makers-community/community/discussions",
+      "about": "공개 가능한 정책 의견만 남겨주세요. 개인정보·신고·초대 링크는 게시하지 마세요."
+    }
+  ]
+}

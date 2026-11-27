@@ -1,0 +1,74 @@
+{
+  "name": "강의 제안",
+  "description": "강의 제안을 공개 가능한 내용으로 작성합니다.",
+  "title": "[강의 제안] ",
+  "labels": [
+    "proposal",
+    "lecture"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "이 제안은 공개됩니다. 실명·연락처·회원 명단·신고·대화 원문·초대 링크·비밀정보를 입력하지 마세요. 행사 참가 신청이나 비공개 신고를 접수하는 양식이 아닙니다."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "purpose",
+      "attributes": {
+        "label": "문제 또는 창작 의도",
+        "description": "대상과 기존 제약, 무엇을 만들거나 개선할지 적어주세요."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "approach",
+      "attributes": {
+        "label": "제안 내용과 진행 방법",
+        "description": "사례·강의·실습·협업의 내용, 필요한 역량과 준비 범위를 설명해 주세요."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "success",
+      "attributes": {
+        "label": "결과와 완료 기준",
+        "description": "검증 방법, 기대 학습, 실패·한계를 어떻게 확인할지 적어주세요."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "constraints",
+      "attributes": {
+        "label": "권리·안전·비용·공개 범위",
+        "description": "공개·합성 데이터 사용, 자료 권리, 공개 동의, 예상 위험과 비용 여부를 적어주세요. 지출은 별도 승인 대상입니다."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "privacy",
+      "attributes": {
+        "label": "공개 전 확인",
+        "options": [
+          {
+            "label": "개인정보·비밀정보·초대 링크를 포함하지 않았으며 자료의 권리와 공개 범위를 확인했습니다.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
