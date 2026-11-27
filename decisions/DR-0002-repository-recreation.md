@@ -16,7 +16,7 @@
 
 ## 결정과 근거
 
-사용자의 삭제·동일 이름 재생성 승인에 따라 community와 website를 복구합니다. Organization과 operations는 유지합니다. 복구 중에는 비공개와 Actions 비활성 상태로 검사하고, noreply 커밋 검증 후 공개합니다. 초기 커밋은 로컬에서 생성하고 CLI squash 병합에도 noreply 작성자 이메일을 명시합니다. Actions 문서 검사에서 가져온 전체 이력의 작성자·committer 이메일을 검사합니다.
+사용자의 삭제·동일 이름 재생성 승인에 따라 community와 website를 복구합니다. Organization과 operations는 유지합니다. 복구 중에는 비공개와 Actions 비활성 상태로 검사하고, noreply 커밋 검증 후 공개합니다. 초기 커밋은 로컬에서 생성하고 계정이 지정된 noreply 주소의 서버 병합을 거절하여 초기 복구 PR은 로컬 fast-forward로 반영합니다. Actions 문서 검사에서 가져온 전체 이력의 작성자·committer 이메일을 검사합니다.
 
 ## 재검토 조건
 
